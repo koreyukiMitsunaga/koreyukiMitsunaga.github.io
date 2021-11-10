@@ -205,6 +205,10 @@ h2 {
 	text-align: center;
 }
 
+.main-top {
+	margin-top: 20px;
+}
+
 /* About */
 
 /* Animation */
@@ -326,6 +330,10 @@ footer small{
 	.inner {
 		width:70%;
 	}
+	.hum{
+		right:10px;
+		top:10px;
+	}
 	.hum:hover {
 		background-color:rgba(0, 0, 0, 0.6);
 		transition-duration: none;
@@ -348,6 +356,10 @@ footer small{
 	#photo {
 		width: 90%;
 		height: fit-content;
+	}
+	.topBtn{
+		right:10px;
+		bottom:10px;
 	}
 }
 
