@@ -9,8 +9,6 @@
     <title>Gratin Records</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/modaal.css" rel="stylesheet">
-    <link href="css/modaal_or.css" rel="stylesheet">
     <!-- <link href="css/tb_style.css" rel="stylesheet"> -->
     <!-- <link href="css/m_style.css" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,92 +18,107 @@
     
 </head>
 
-<body>
+<body id="top">
 <div id="wrapper">
     <header>
-        <h1 id="logo"><img src="images/logo.png" alt="logo"></h1>
-        <!-- test -->
+        <!-- <h1 id="logo"><img src="images/logo.png" alt="logo"></h1> -->
         <div class="hum">
             <div class="burger"></div>
             <div class="burger"></div>
             <div class="burger"></div>
             <div class="burger-txt">MENU</div>
         </div>
-        <!--.hum-->
         <div class="header-wrap">
-        <!--.inner-->
         <div class="nav-wrap">
             <nav>
             <ul>
                 <li class="selected"><a href="#top">Top</a></li>
-                <li><a href="#about">About</a></li>
                 <li><a href="#animation">Animation</a></li>
                 <li><a href="#music">Music</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             </nav>
         </div>
+        <h1><img src="images/logo2.gif" alt="Key Visual"></h2>
 
-        <!-- test -->
-        <!-- <nav id="gNavi">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#works">Works</a></li>
-                <li><a href="#music">Music</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav> -->
+
     </header>
     <main>
-        <h2><img src="images/test.gif" alt="Key Visual"></h2>
         <div class="inner">
             <div class="content">
-                <h3 id="about">About</h3>
-                <p>Gratin Recordsの光永これゆきは、アニメーションや、ウェブページや、音楽を作ったりしています。グラタンカーニバル名義では、
-            </div>
-            <div class="content">
-                <h3 id="animation">Animation</h3>
-                <ul class="flex" class="gallery-list">
+                <h2 id="animation">Animation</h2>
+                <ul class="flex-wrap">
                     <li class="card">
-                        <a href="images/robot01.gif" class="gallery" data-group="gallery">
-                            <p class="gifWrap"><img src="images/robot01.gif" alt="" ></p>
+                        <a href="images/robot01.gif" class="modal">
+                            <p class="img-wrap"><img src="images/robot01.gif" alt="" ></p>
                         </a>
                     </li>
                     <li class="card">
-                        <a href="images/Crocodile.gif" class="gallery" data-group="gallery">
-                            <p class="gifWrap"><img src="images/Crocodile.gif" alt="" class="gifImg"></p>
+                        <a href="images/Crocodile.gif" class="modal">
+                            <p class="img-wrap"><img src="images/Crocodile.gif" alt=""></p>
                         </a>
                     </li>
                     <li class="card">
-                        <a href="images/Rat.gif" class="gallery" data-group="gallery">
-                            <p class="gifWrap"><img src="images/Rat.gif" alt="" class="gifImg"></p>
+                        <a href="images/Rat.gif" class="modal">
+                            <p class="img-wrap"><img src="images/Rat.gif" alt=""></p>
                         </a>
                     </li>
                     <li class="card">
-                        <a href="images/logo.png" class="gallery" data-group="gallery">
-                            <p class="gifWrap"><img src="images/logo.png" alt="" class="gifImg"></p>
+                        <a href="images/alian.gif" class="modal">
+                            <p class="img-wrap"><img src="images/alian.gif" alt=""></p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="images/gratinReords.gif" class="modal">
+                            <p class="img-wrap"><img src="images/gratinReords.gif" alt=""></p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="images/man.gif" class="modal">
+                            <p class="img-wrap"><img src="images/man.gif" alt=""></p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="images/se_004.gif" class="modal">
+                            <p class="img-wrap"><img src="images/se_004.gif" alt=""></p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="images/回転.gif" class="modal">
+                            <p class="img-wrap"><img src="images/回転.gif" alt=""></p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="images/かっちかちやぞ.gif" class="modal">
+                            <p class="img-wrap"><img src="images/かっちかちやぞ.gif" alt=""></p>
                         </a>
                     </li>
                 </ul>
             </div>
             <div class="content">
-                <h3 id="music">Music</h3>
-                <p>Webサイトは文章を「読ませるサイト」だけではなく「見せるサイト」「使わせるサイト」もあるため、多くのWebサイトではテキスト、画像、動画、音声を含めてコンテンツを作っています。代替テキストはWebサイト内に含まれている画像や動画が何らかの原因で表示されなかったときや、視覚に障害のある方などが音声ブラウザを使用する際に、代わりに表示するテキストを指します。また、Webサイトの閲覧者は画像や動画を見ることで内容を把握することができますが、検索エンジンは完璧に内容を把握することができません。そのため、代替テキストから画像や動画の内容を判断します。(※代替テキスト以外にも、画像付近のテキスト情報、ページ内容なども参考にします。)コンテンツとして意味を持つ画像や動画には端的な文言で代替テキストを設置することを推奨します。この代替テキスト情報を指定する属性のことをalt属性と呼びます。</p>
+                <h2 id="music">Music</h2>
+                <p><a href="https://gratincarnival.bandcamp.com/" target="_blank">https://gratincarnival.bandcamp.com/</a></p>
             </div>
             <div class="content">
-                <h3 id="contact">Contact</h3>
+                <h2 id="about">About</h2>
+                <p>光永惟行 Mitsunaga Koreyuki</p>
+                <p>アニメーションやWebページ、音楽を作っています。</p>
+            </div>
+            <div class="content">
+                <h2 id="contact">Contact</h2>
                 <p>mitsunaga.r@gmail.com</p>
             </div>
         </div>
     </main>
 
     <footer>
-        <p class="inner"><small>&copy;Koreyuki Mitsunaga</small></p>
+        <p class="footer_text"><small>&copy;Koreyuki Mitsunaga</small></p>
+        <div class="topBtn"> <a href="#top"></a></div>
     </footer>
-    <div class="topBtn"> <a href="#top"></a></div>
+    
 </div><!-- wrapper -->
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/script.js"></script>
-<script src="js/modaal.min.js"></script>
-<script src="js/modaal_or.js"></script>
+<script src="js/modal.js"></script>
 </html>
