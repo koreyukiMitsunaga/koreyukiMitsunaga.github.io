@@ -71,6 +71,11 @@ a:hover {
 	margin-bottom:28px;
 }
 
+/* 左揃え */
+.lLeft{
+	text-align: left;
+}
+
 
 /* header
 ================== */
@@ -98,10 +103,10 @@ header {
 	z-index:1000;
 	cursor: pointer;
 }
-.hum:hover {
+/* .hum:hover {
 	background-color:rgba(150, 175, 178 ,0.8);
 	transition-duration: 0.2s;
-}
+} */
 .hum div{
 	position:absolute;
 	left:5px;
@@ -338,6 +343,10 @@ footer small{
 		background-color:rgba(0, 0, 0, 0.6);
 		transition-duration: none;
 	}
+	.lLeft-media{
+		text-align: left;
+	}
+	
 	/* Animation */
 	.flex-wrap {
 		display: block;
