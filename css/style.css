@@ -17,7 +17,6 @@ body {
 	font-size:1.4rem;
 	line-height:1.8;
 	color:#333333;
-	
 }
 
 .wrapper {
@@ -103,10 +102,10 @@ header {
 	z-index:1000;
 	cursor: pointer;
 }
-/* .hum:hover {
+.hum:hover {
 	background-color:rgba(150, 175, 178 ,0.8);
 	transition-duration: 0.2s;
-} */
+}
 .hum div{
 	position:absolute;
 	left:5px;
@@ -309,6 +308,11 @@ footer small{
 	bottom:20px;
 	border-radius:10px;
 }
+.topBtn:hover {
+	background-color:rgba(150, 175, 178 ,0.8);
+	transition-duration: 0.2s;
+
+}
 .topBtn a{
 	display:block;
 	width:100%;
@@ -320,7 +324,7 @@ footer small{
 	width:20px;
 	height:20px;
 	position:absolute;
-	left:50%;
+	left:48%;
 	top:60%;
 	border:solid rgba(255,255,255,1);
 	border-width:2px 0 0 2px;
@@ -330,21 +334,69 @@ footer small{
 
 /* responsive
 ================== */
-
-@media screen and (max-width:769px){
-	.inner {
-		width:70%;
+/* タブレット */
+@media screen and (max-width:1024px){
+	/* ハンバーガーメニューとトップへ戻るボタンのhoverをなくす */
+	.hum:hover {
+		background-color:rgba(0, 0, 0, 0.6);
 	}
+	.topBtn:hover {
+		background-color:rgba(0, 0, 0, 0.6);
+	}
+	
+	/* イメージのhoverをなくす */
+	.img-wrap:hover{
+		opacity: 1;
+	}
+}
+
+/* スマートフォン */
+@media screen and (max-width:540px){
+	body {
+		font-size:1.2rem;
+	}
+	
+	.inner {
+		width:80%;
+	}
+	/* モバイル用左揃え */
+	.lLeft-mobile{
+		text-align: left;
+	}
+
+	/* ハンバーガーボタン */
 	.hum{
+		width:40px;
+		height:40px;
 		right:10px;
 		top:10px;
 	}
-	.hum:hover {
-		background-color:rgba(0, 0, 0, 0.6);
-		transition-duration: none;
+	.burger{
+		width:30px;
+		height:2px;
 	}
-	.lLeft-media{
-		text-align: left;
+	.burger:nth-child(1){
+		top:8px;
+	}
+	.burger:nth-child(2){
+		top:19px;
+	}
+	.burger:nth-child(3){
+		top:30px;
+	}
+	.burger-txt{
+		overflow: hidden;
+  		text-indent: 100%;
+  		white-space: nowrap;
+	}
+	.tapped .burger:nth-child(1){
+		top:19px;
+	}
+	.tapped .burger:nth-child(2){
+		top:19px;
+	}
+	.tapped .burger:nth-child(3){
+		top:19px;
 	}
 	
 	/* Animation */
@@ -366,10 +418,29 @@ footer small{
 		width: 90%;
 		height: fit-content;
 	}
+
+	/* footer */
+	.footer_text {
+		position: static;
+		padding-top: 6px;
+		text-align: center;
+	}
+	
+
+	/*ページトップに戻るボタン*/
 	.topBtn{
+		width:40px;
+		height:40px;
 		right:10px;
 		bottom:10px;
 	}
+	.topBtn a:before{
+		width:18px;
+		height:18px;
+		left:50%;
+		top:62%;
+	}
+	
 }
 
 
