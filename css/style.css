@@ -252,22 +252,17 @@ h2 {
 	opacity: 0.5;
 	transition-duration: 0.2s;
 }
-/* Movie */
-.movie-wrap {
-	position: relative;
-	margin-bottom: 50px;
-	padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
-	height: 0;
-	overflow: hidden;
+
+/* movie */
+.movieThum-wrap {
+	width: 80%;
+	margin: 0 auto 20px;
+}
+.movieThum-wrap:hover {
+	opacity: 0.5;
+	transition-duration: 0.2s;
 }
 
-.movie-wrap iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
 
 
 /* test */
@@ -348,6 +343,49 @@ footer small{
 	margin:-10px 0 0 -10px;
 	transform:rotate(45deg);
 }
+
+/* movie page
+================== */
+.movie-top {
+	margin-top: 40px;
+}
+.movie-name {
+	text-align: left;
+	line-height: 40px;
+}
+.movie-caption {
+	display: flex;
+	margin: 50px 0;
+}
+.movie-img {
+	width: 50%;
+	margin-left: 10%;
+}
+.movie-textHd {
+	font-family: 'Dongle', sans-serif;
+	font-size: 30px;
+}
+.movie-text {
+	width: 40%;
+	text-align: left;
+}
+/* Youtube */
+.youtube-wrap {
+	position: relative;
+	margin-bottom: 50px;
+	padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+	height: 0;
+	overflow: hidden;
+}
+.youtube-wrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
 
 /* responsive
 ================== */
@@ -440,6 +478,12 @@ footer small{
 		height: fit-content;
 	}
 
+	/* movie */
+	.movieThum-wrap {
+		width: 100%;
+	}
+	
+	
 	/* footer */
 	.footer_text {
 		position: static;
@@ -461,6 +505,28 @@ footer small{
 		left:50%;
 		top:62%;
 	}
+	/* movie page
+	================== */
+	.movie-caption {
+		display: block;
+		margin-top: 20px;
+	}
+	.movie-name {
+		text-align: center;
+	}
+	.movie-textHd {
+		font-family: 'Dongle', sans-serif;
+		text-align: center;
+	}
+	.movie-text {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.movie-img {
+		width: 100%;
+		margin-left: 0;
+	}
+	
 	
 }
 
