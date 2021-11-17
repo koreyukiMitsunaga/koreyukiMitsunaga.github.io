@@ -213,7 +213,21 @@ h2 {
 	margin-top: 20px;
 }
 
-/* About */
+/* Nwes */
+.news-content {
+	margin-bottom: 40px;
+}
+.news-hd {
+	font-size: 2rem;
+	margin-bottom: 10px;
+	color: #0CB4CC;
+}
+.news-text {
+	line-height: 300%;
+}
+.news-link {
+	text-decoration: underline;
+}
 
 /* Animation */
 .flex-wrap {
@@ -391,6 +405,9 @@ footer small{
 ================== */
 /* タブレット */
 @media screen and (max-width:1024px){
+	a:hover {
+		color: #333333;
+	}
 	/* ハンバーガーメニューとトップへ戻るボタンのhoverをなくす */
 	.hum:hover {
 		background-color:rgba(0, 0, 0, 0.6);
@@ -419,7 +436,7 @@ footer small{
 	}
 
 	/* モバイル用左揃え */
-	.lLeft-mobile{
+	.lLeft-mobile {
 		text-align: left;
 	}
 
@@ -457,6 +474,15 @@ footer small{
 	.tapped .burger:nth-child(3){
 		top:19px;
 	}
+	
+	/* News */
+	.news-content {
+		text-align: left;
+	}
+	.news-text, .news-link {
+		line-height: 200%;
+	}
+	
 	
 	/* Animation */
 	.flex-wrap {
@@ -526,8 +552,6 @@ footer small{
 		width: 100%;
 		margin-left: 0;
 	}
-	
-	
 }
 
 
