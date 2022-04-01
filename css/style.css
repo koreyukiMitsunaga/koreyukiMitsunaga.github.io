@@ -517,7 +517,7 @@ footer small{
  */
 	.card-music {
 		width: 90%;
-		height: 400px;
+		height: 350px;
 		margin:10 auto;
 	}
 	.card-music:nth-child(3n) {
