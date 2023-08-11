@@ -213,7 +213,7 @@ h2 {
 }
 
 .main-top {
-	margin-top: 20px;
+	margin-top: 40px;
 }
 .top-text {
 	color: #96AFB2;
@@ -517,9 +517,6 @@ footer small{
 	}
 	
 	/* Top */
-	.main-top {
-		margin-top: 40px;
-	}
 
 	/* Animation */
 /* 	
