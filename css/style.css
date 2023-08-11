@@ -517,8 +517,8 @@ footer small{
 	}
 	
 	/* Top */
-	.top-text {
-		font-size: 2rem;
+	.main-top {
+		margin-top: 40px;
 	}
 
 	/* Animation */
