@@ -70,5 +70,24 @@ $(function(){
 		}
 		
 	}
+
+	//アクセスカウンターーーーーーーーーーーーー
+	// getItemメソッドでlocalStorageからデータを取得
+	let aCount = localStorage.getItem('count');
+
+	//データの値を判定
+	if (aCount === null) {
+		//データが何もない場合「1」を代入
+		aCount = 1;
+	} else {
+		//データがある場合「1」をプラス
+		aCount++;
+	}
+
+	//setItemメソッドでlocalStorageにデータを保存
+	localStorage.setItem('count', aCount);
+
+	//コンソールで値を表示
+	console.log(aCount);
 	
 });
