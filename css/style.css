@@ -50,8 +50,8 @@ ul,ol {
 
 a:link,
 a:visited {
-	color: #333333;
-	text-decoration: none;
+	/* color: #333333; */
+	color: #0CB4CC;
 }
 
 a:hover {
@@ -75,6 +75,9 @@ a:hover {
 	text-align: left;
 }
 
+.backButton {
+	margin-top: 20px;
+}
 
 /* header
 ================== */
@@ -212,6 +215,16 @@ h2 {
 .main-top {
 	margin-top: 20px;
 }
+.top-text {
+	color: #96AFB2;
+}
+
+/* About */
+.about-name {
+	font-weight:bold;
+	margin-bottom: 10px;
+}
+
 
 /* Nwes */
 .news-content {
@@ -220,14 +233,14 @@ h2 {
 .news-hd {
 	font-size: 2rem;
 	margin-bottom: 10px;
-	color: #0CB4CC;
 }
 .news-text {
 	line-height: 300%;
 }
-.news-link {
+/* .news-link {
+	color: #0CB4CC;
 	text-decoration: underline;
-}
+} */
 
 /* Animation */
 .flex-wrap {
@@ -294,6 +307,10 @@ h2 {
 	margin-right: 0px;
 }
 
+/* link */
+.link-text {
+	margin-bottom: 10px;
+}
 
 /* test */
 #bg {
@@ -377,7 +394,7 @@ footer small{
 /* movie page
 ================== */
 .movie-top {
-	margin-top: 40px;
+	margin-top: 20px;
 }
 .movie-name {
 	text-align: left;
